@@ -3,6 +3,9 @@
 
 //escribe tu función aquí. Recuerda que el nombre de la función debe ser exactamente "calcularPromedio" y que debe recibir exactamente 5 parámetros
 
+function calcularPromedio(n1, n2, n3, n4, n5) {
+  return (n1 + n2 + n3 + n4 + n5) / 5;
+}
 
 // Exporta la función para que pueda ser utilizada en las pruebas
 module.exports = {

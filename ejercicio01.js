@@ -3,6 +3,8 @@
 
 function obtenerNombre() {
     // Escribe tu código aquí
+    var nombre = "Ernesto";
+    return nombre;
 }
 
 // No modificar.
@@ -10,3 +12,4 @@ function obtenerNombre() {
 module.exports = {
     obtenerNombre
 };
+console.log(obtenerNombre())
